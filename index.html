@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Counting Website by Samuel</title>
+    <link rel="stylesheet" href="style-samuel.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Card Counting Application by Samuel</h1>
+        <div class="card-buttons">
+            <button onclick="addCard('2')">2</button>
+            <button onclick="addCard('3')">3</button>
+            <button onclick="addCard('4')">4</button>
+            <button onclick="addCard('5')">5</button>
+            <button onclick="addCard('6')">6</button>
+            <button onclick="addCard('7')">7</button>
+            <button onclick="addCard('8')">8</button>
+            <button onclick="addCard('9')">9</button>
+            <button onclick="addCard('10')">10</button>
+            <button onclick="addCard('J')">J</button>
+            <button onclick="addCard('Q')">Q</button>
+            <button onclick="addCard('K')">K</button>
+            <button onclick="addCard('A')">A</button>
+        </div>
+        <div class="output-section">
+            <h2>Current Count: <span id="countDisplay">0</span></h2>
+            <button onclick="resetCount()">Reset Count</button>
+        </div>
+        <footer>
+            <p>Website by Samuel</p>
+        </footer>
+    </div>
+    <script src="script-samuel.js"></script>
+</body>
+</html>
